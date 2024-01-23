@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0A9EF4192B59B656006F6EE3 /* BaseBallCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EF4182B59B656006F6EE3 /* BaseBallCardsApp.swift */; };
-		0A9EF41B2B59B656006F6EE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EF41A2B59B656006F6EE3 /* ContentView.swift */; };
 		0A9EF41D2B59B658006F6EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9EF41C2B59B658006F6EE3 /* Assets.xcassets */; };
 		0A9EF4202B59B658006F6EE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9EF41F2B59B658006F6EE3 /* Preview Assets.xcassets */; };
+		0A9EF4272B601E72006F6EE3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EF4262B601E72006F6EE3 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A9EF4152B59B656006F6EE3 /* BaseBallCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseBallCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9EF4182B59B656006F6EE3 /* BaseBallCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseBallCardsApp.swift; sourceTree = "<group>"; };
-		0A9EF41A2B59B656006F6EE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0A9EF41C2B59B658006F6EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A9EF41F2B59B658006F6EE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A9EF4262B601E72006F6EE3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +52,9 @@
 			isa = PBXGroup;
 			children = (
 				0A9EF4182B59B656006F6EE3 /* BaseBallCardsApp.swift */,
-				0A9EF41A2B59B656006F6EE3 /* ContentView.swift */,
 				0A9EF41C2B59B658006F6EE3 /* Assets.xcassets */,
 				0A9EF41E2B59B658006F6EE3 /* Preview Content */,
+				0A9EF4262B601E72006F6EE3 /* DetailView.swift */,
 			);
 			path = BaseBallCards;
 			sourceTree = "<group>";
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A9EF41B2B59B656006F6EE3 /* ContentView.swift in Sources */,
 				0A9EF4192B59B656006F6EE3 /* BaseBallCardsApp.swift in Sources */,
+				0A9EF4272B601E72006F6EE3 /* DetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
