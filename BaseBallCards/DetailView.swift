@@ -9,22 +9,41 @@ import SwiftUI
 
 struct DetailView: View {
     var body: some View {
-        VStack {
-            Image("Xavier Nadeau")
-                .resizable()
-                .scaledToFit()
-                .overlay {
-                    VStack {
-                        Text("Xavier Nadeau")
-                            .foregroundStyle(.white)
-                            .font(.largeTitle)
-                        
-                        
-                        
-                        Spacer()
+        ZStack {
+            // background
+            Color.green
+                .ignoresSafeArea()
+            
+            // Foreground
+            VStack {
+                Text("LCS")
+                
+                Spacer()
+                
+                
+                Image("Xavier Nadeau")
+                    .resizable()
+                    .scaledToFit()
+                    .overlay {
+                        VStack {
+                            Text("Xavier Nadeau")
+                                .foregroundStyle(.white)
+                                .font(.largeTitle)
+                            
+                            
+                            
+                            Spacer()
+                        }
                     }
-                }
+                
+                
+                Spacer()
+                
+                
+                Text("Terrapins")
+            }
         }
+
     }
 }
 
