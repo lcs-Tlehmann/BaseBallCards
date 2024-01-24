@@ -11,6 +11,8 @@
 		0A9EF41D2B59B658006F6EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9EF41C2B59B658006F6EE3 /* Assets.xcassets */; };
 		0A9EF4202B59B658006F6EE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9EF41F2B59B658006F6EE3 /* Preview Assets.xcassets */; };
 		0A9EF4272B601E72006F6EE3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EF4262B601E72006F6EE3 /* DetailView.swift */; };
+		0A9EF42A2B607700006F6EE3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EF4292B607700006F6EE3 /* Card.swift */; };
+		0A9EF42F2B616738006F6EE3 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EF42E2B616738006F6EE3 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0A9EF41C2B59B658006F6EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A9EF41F2B59B658006F6EE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A9EF4262B601E72006F6EE3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		0A9EF4292B607700006F6EE3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		0A9EF42E2B616738006F6EE3 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				0A9EF4182B59B656006F6EE3 /* BaseBallCardsApp.swift */,
+				0A9EF4282B6076F0006F6EE3 /* Model */,
 				0A9EF41C2B59B658006F6EE3 /* Assets.xcassets */,
 				0A9EF41E2B59B658006F6EE3 /* Preview Content */,
-				0A9EF4262B601E72006F6EE3 /* DetailView.swift */,
 			);
 			path = BaseBallCards;
 			sourceTree = "<group>";
@@ -62,9 +66,19 @@
 		0A9EF41E2B59B658006F6EE3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				0A9EF4262B601E72006F6EE3 /* DetailView.swift */,
 				0A9EF41F2B59B658006F6EE3 /* Preview Assets.xcassets */,
+				0A9EF42E2B616738006F6EE3 /* ListView.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A9EF4282B6076F0006F6EE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A9EF4292B607700006F6EE3 /* Card.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A9EF42F2B616738006F6EE3 /* ListView.swift in Sources */,
 				0A9EF4192B59B656006F6EE3 /* BaseBallCardsApp.swift in Sources */,
+				0A9EF42A2B607700006F6EE3 /* Card.swift in Sources */,
 				0A9EF4272B601E72006F6EE3 /* DetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
