@@ -11,19 +11,27 @@ struct ListView: View {
     var body: some View {
         NavigationStack {
             ZStack{
-            List{
-                NavigationLink(destination:{
-                    DetailView(cardToShow: XavierNadeau)
-                }, label: {
-                    Text("Xavier Nadeau")
-                })
+                List{
+                    NavigationLink(destination:{
+                        DetailView(cardToShow: XavierNadeau)
+                    }, label: {
+                        Text("Xavier Nadeau")
+                    })
+                    
+                            NavigationLink(destination:{
+                                detailView(cardToShow:CarterFleming)
+                            }, label: {
+                                Text("Carter Fleming")
+                            })
+                            .navigationTitle("LCS Senior Basketball")
+                }
             }
-        }
-            .navigationTitle("LCS Senior Basketball")
-        }
+            
+                }
+            }
     }
-}
 
-#Preview {
-    ListView()
-}
+    #Preview {
+        ListView()
+    }
+
