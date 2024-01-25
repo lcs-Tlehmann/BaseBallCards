@@ -13,16 +13,38 @@ struct ListView: View {
             ZStack{
                 List{
                     NavigationLink(destination:{
-                        DetailView(cardToShow: XavierNadeau)
+                        xavier(cardToShow: XavierNadeau)
                     }, label: {
                         Text("Xavier Nadeau")
                     })
                     
                             NavigationLink(destination:{
-                                detailView(cardToShow:CarterFleming)
+                                carter(cardToShow:CarterFleming)
                             }, label: {
                                 Text("Carter Fleming")
                             })
+                    
+                    NavigationLink(destination:{
+                        oliver(cardToShow:OliverHolmes)
+                    }, label: {
+                        Text("Oliver Homes")
+                    })
+                    
+                    
+                    NavigationLink(destination:{
+                        tristan(cardToShow:TristanLehmann)
+                    }, label: {
+                        Text("Tristan Lehmann")
+                    })
+                    
+                    
+                    NavigationLink(destination:{
+                        sam(cardToShow:SamDickey)
+                    }, label: {
+                        Text("Sam Dickey")
+                    })
+
+                    
                             .navigationTitle("LCS Senior Basketball")
                 }
             }
