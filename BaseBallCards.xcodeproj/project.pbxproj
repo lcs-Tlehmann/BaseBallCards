@@ -57,7 +57,7 @@
 			children = (
 				0A9EF4182B59B656006F6EE3 /* BaseBallCardsApp.swift */,
 				0A9EF4282B6076F0006F6EE3 /* Model */,
-				0A9EF41C2B59B658006F6EE3 /* Assets.xcassets */,
+				0A9EF4322B67ED09006F6EE3 /* Views */,
 				0A9EF41E2B59B658006F6EE3 /* Preview Content */,
 			);
 			path = BaseBallCards;
@@ -66,9 +66,8 @@
 		0A9EF41E2B59B658006F6EE3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				0A9EF4262B601E72006F6EE3 /* DetailView.swift */,
 				0A9EF41F2B59B658006F6EE3 /* Preview Assets.xcassets */,
-				0A9EF42E2B616738006F6EE3 /* ListView.swift */,
+				0A9EF41C2B59B658006F6EE3 /* Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -79,6 +78,15 @@
 				0A9EF4292B607700006F6EE3 /* Card.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0A9EF4322B67ED09006F6EE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A9EF42E2B616738006F6EE3 /* ListView.swift */,
+				0A9EF4262B601E72006F6EE3 /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
