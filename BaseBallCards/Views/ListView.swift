@@ -18,11 +18,11 @@ struct ListView: View {
                         Text("Xavier Nadeau")
                     })
                     
-                            NavigationLink(destination:{
-                                carter(cardToShow:CarterFleming)
-                            }, label: {
-                                Text("Carter Fleming")
-                            })
+                    NavigationLink(destination:{
+                        carter(cardToShow:CarterFleming)
+                    }, label: {
+                        Text("Carter Fleming")
+                    })
                     
                     NavigationLink(destination:{
                         oliver(cardToShow:OliverHolmes)
@@ -43,17 +43,17 @@ struct ListView: View {
                     }, label: {
                         Text("Sam Dickey")
                     })
-
                     
-                            .navigationTitle("LCS Senior Basketball")
+                    
+                    .navigationTitle("LCS Senior Basketball")
                 }
             }
             
-                }
-            }
+        }
     }
+}
 
-    #Preview {
-        ListView()
-    }
+#Preview {
+    ListView()
+}
 
